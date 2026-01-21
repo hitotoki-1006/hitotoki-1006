@@ -599,6 +599,30 @@ img {
   display: none;
 }
 
+/*ギャラリー
+----------------------------------*/
+.garally-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.garally-item {
+  width: calc(50% - 0.5rem);
+  list-style: none;
+}
+
+@media(min-width:768px) {
+  .garally-item{
+    width: calc(25% - 00.5rem);
+  }
+}
+
+.garally-item p {
+  color: #333333;
+  font-size: 0.5rem;
+}
+
 /*お問い合わせ
 -----------------------------------*/
 .contact-group {
