@@ -613,7 +613,7 @@ img {
 }
 
 @media(min-width:768px) {
-  .garally-item{
+  .garally-item {
     width: calc(25% - 00.5rem);
   }
 }
@@ -658,7 +658,39 @@ img {
   }
 }
 
+/*問い合わせフォーム*/
+.contact-form {
+  margin-top: 3rem;
+}
 
+.form-name {
+  font-size: 1rem;
+  text-align: center;
+}
+
+.form-item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.5rem;
+}
+
+.form-item label {
+  margin-bottom: 0.5rem;
+}
+
+.contact-submit {
+  padding: 0.75rem 2rem;
+  border: 1px solid;
+  line-height: 1;
+  background-color: #f8f4e6;
+}
+
+.form-item input,
+.form-item textarea {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+}
 
 /*フッター
 -----------------------------------*/
